@@ -1,6 +1,6 @@
 {
   "name": "truffle-privatekey-provider",
-  "version": "1.0.0",
+  "version": "1.0.0-web3one.0",
   "description": "Private Key Web3 provider",
   "main": "index.js",
   "scripts": {},
@@ -15,15 +15,15 @@
     "provider",
     "truffle provider"
   ],
-  "author": "Alex Popov <nosuchip@gmail.com>",
+  "author": "Tom Bean <tom@bzx.network>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nosuchip/truffle-privatekey-provider/issues"
   },
   "homepage": "https://github.com/nosuchip/truffle-privatekey-provider#readme",
   "dependencies": {
-    "ethereumjs-wallet": "^0.6.0",
-    "web3": "^1.0.0-beta.34",
-    "web3-provider-engine": "^14.0.5"
+    "ethereumjs-wallet": "^0.6.3",
+    "web3": "1.0.0-beta.33",
+    "web3-provider-engine": "git+https://github.com/cgewecke/provider-engine.git#web3-one"
   }
 }
