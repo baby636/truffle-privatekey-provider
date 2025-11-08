@@ -24,6 +24,6 @@
   "dependencies": {
     "ethereumjs-wallet": "^0.6.3",
     "web3": "1.0.0-beta.33",
-    "web3-provider-engine": "git+https://github.com/cgewecke/provider-engine.git#web3-one"
+    "web3-provider-engine": "16.0.8"
   }
 }
